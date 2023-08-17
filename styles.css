@@ -88,13 +88,13 @@ button{
 
 .hero-img{
     color: #E5E7EB;
+    width: 500px;
+    height: auto;
 }
 
 img{
-    width: 500px;
-    height: auto;
-    border-radius: 16px;
-    
+
+    border-radius: 16px; 
 }
 
 .main-text{
@@ -112,3 +112,41 @@ img{
 }
 
 /*/MAIN-CONtENT*/
+
+/*INFORMATION-SECTION*/
+
+.information-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+    
+}
+
+#title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#image{
+    width: 220px;
+    height: auto;
+}
+
+
+#img-caption{
+    
+    text-align: center;
+}
+
+/*/INFORMATION-SECTION*/
