@@ -122,6 +122,7 @@ img{
     align-items: center;
     gap: 16px;
     flex-direction: column;
+    padding: 20px 0px;
     
 }
 
@@ -132,15 +133,38 @@ img{
 }
 
 .information{
+    
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
+    justify-content: center;
+    gap: 50px
+    
+    
 
 }
 
+figure{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+figcaption{
+    flex: 1;
+    max-width: 220px;
+}
+
 #image{
-    width: 220px;
-    height: auto;
+    width : 220px;
+    height: 220px;
+    object-fit: cover;
+    border: solid 4px #1F2937;
 }
 
 
