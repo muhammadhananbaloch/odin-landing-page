@@ -55,7 +55,6 @@ body{
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
 }
 
 .hero-text{
@@ -70,8 +69,6 @@ body{
     color: #E5E7EB;
     margin: 0;
     flex: 1;
-    flex-wrap: wrap;
-    
 }
 button{
     background-color: #3882F6;
@@ -82,8 +79,6 @@ button{
     font-weight: 700;
     padding: 8px 24px;
     flex: 1;
-    flex-wrap: wrap;
-
 }
 
 .hero-img{
@@ -103,8 +98,6 @@ img{
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
-    
-    
 }
 
 .image{
@@ -139,10 +132,8 @@ img{
     padding-left: 80px;
     padding-right: 80px;
     justify-content: center;
-    gap: 50px
-    
-    
-
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 figure{
