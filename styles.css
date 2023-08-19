@@ -70,7 +70,7 @@ body{
     margin: 0;
     flex: 1;
 }
-button{
+.main-button{
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
@@ -201,3 +201,54 @@ figcaption{
     text-align: end;
 }
 /* /Quote Section */
+
+/* Sign up section */
+
+.sign-up-section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 90px auto;
+    background-color: #3882F6;
+    
+
+    
+}
+
+.sign-up-room{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    gap: 200px;
+    
+}
+
+.copy-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 24px;
+}
+
+.copy{
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+.big{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.small{
+    font-size: 18px;
+    margin: 0;
+}
+/* /Sign up section */
