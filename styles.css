@@ -246,4 +246,12 @@ figcaption{
     font-size: 18px;
     margin: 0;
 }
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
+}
 /* /Sign up section */
