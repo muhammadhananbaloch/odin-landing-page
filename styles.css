@@ -246,7 +246,9 @@ figcaption{
     font-size: 18px;
     margin: 0;
 }
+/* /Sign up section */
 
+/* Footer-Section */
 .footer{
     background-color: #1F2937;
     color:#E5E7EB;
@@ -254,4 +256,4 @@ figcaption{
     text-align: center;
     padding: 40px 0px;
 }
-/* /Sign up section */
+/* /Footer-Section */
